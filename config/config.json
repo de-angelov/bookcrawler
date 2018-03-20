@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "bookDB",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "pool": {
+      "max": 5,
+      "idle": 1000,
+      "acquire": 2000
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "bookDB",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "pool": {
+      "max": 5,
+      "idle": 1000,
+      "acquire": 2000
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "bookDB",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "pool": {
+      "max": 5,
+      "idle": 1000,
+      "acquire": 2000
+    }
+  }
+}
